@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.h1 {
+  background-color: rgb(59, 1, 173);
+  text-align: center;
+}
+.main {
+  display: flex;
+  gap: 50vmin;
+  margin-top: 1.2vmin;
+  flex-direction: column;
+}

@@ -1,0 +1,65 @@
+.sidebar {
+  top: 6vmin;
+  left: 1vmin;
+  position: fixed;
+
+  height: 92vmin;
+  width: 39vmin;
+  display: flex;
+  gap: 2vmin;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 10px 10px 50px 10px solid black;
+}
+#me {
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 50%;
+  border: 1px solid purple;
+  padding: 0.3vmin;
+}
+#info {
+  opacity: 0.6;
+}
+.count {
+  display: flex;
+  gap: 2.8vmin;
+  justify-content: center;
+  align-items: center;
+}
+.followinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  margin-top: 2vmin;
+  flex-direction: column;
+  gap: 5vmin;
+  width: 20vmin;
+
+  overflow: hidden;
+  width: auto;
+}
+.btn:hover {
+  background-color: cornflowerblue;
+  transition: 0.4s;
+}
+.btn {
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+  border: 2rem;
+
+  width: 25vmin;
+  border-radius: 5rem;
+}
+.active {
+  border: none;
+  background: cornflowerblue;
+}
+.active:hover {
+  background: cornflowerblue;
+}

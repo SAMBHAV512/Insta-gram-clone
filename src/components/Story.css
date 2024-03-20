@@ -1,0 +1,36 @@
+.story-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story {
+  transition: 1s;
+  display: flex;
+  gap: 2vmin;
+  width: 140vmin;
+  margin-top: 3vmin;
+  margin-left: 55vmin;
+}
+.story-img {
+  cursor: pointer;
+  width: 15vmin;
+  height: 9vmin;
+  border-radius: 50%;
+  margin-left: 2vmin;
+  border: 2px solid purple;
+  padding: 0.4vmin;
+}
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#post-1 {
+  max-width: 60vmin;
+  max-height: 60vmin;
+}
+hr {
+  margin-left: 50vmin;
+}

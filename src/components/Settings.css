@@ -1,0 +1,40 @@
+.container {
+  background-color: aqua;
+  height: 97vmin;
+  width: 160vmin;
+  margin-left: 45vmin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  #search {
+    width: 150vmin;
+    border-radius: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 6vmin;
+    height: 6vmin;
+    caret-color: red;
+  }
+}
+.main-input {
+  background-color: rgb(183, 183, 221);
+  width: 140vmin;
+  height: 50vmin;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vmin;
+  margin-top: -20vmin;
+}
+#Dark {
+  width: 3vmin;
+  height: 5vmin;
+}
+.sidebar {
+  background-color: white;
+}
+.dark {
+  background-color: aqua;
+}
